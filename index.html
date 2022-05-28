@@ -1,96 +1,184 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!--========== BOX ICONS ==========-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--========== CSS ==========-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
-        <title>Responsive resume cv</title>
-    </head>
-    <body>
-        <!--========== HEADER ==========-->
-        <header class="l-header" id="header">
-            
-        </header>
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-        <main class="l-main bd-container">
-            <!-- All elements within this div, is generated in PDF -->
-            <div class="resume" id="area-cv">
-                <div class="resume__left">
-                    <!--========== HOME ==========-->
-                    <section class="home" id="home">
-                        
-                        <!-- Theme change button -->
-                        
-    
-                        <!-- Button to generate and download the pdf. Available for desktop. -->
+    <title>Responsive resume cv</title>
+</head>
 
-                    </section>          
-                    
-                    <!--========== SOCIAL ==========-->
-                    <section class="social section">
-                        
-                    </section>
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Firdie</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="bx bx-home nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class="bx bx-user nav__icon"></i> Profile
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class="bx bx-book nav__icon"></i> Education
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="bx bx-receipt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class="bx bx-briefcase-alt nav__icon"></i> Experience
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class="bx bx-award nav__icon"></i> Certificates
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#references" class="nav__link">
+                            <i class="bx bx-link-external nav__icon"></i> References
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
-                    <!--========== PROFILE ==========-->
-                    <section class="profile section" id="profile">
-                        
-                    </section>
-                    
-                    <!--========== EDUCATION ==========-->
-                    <section class="education section" id="education">
-                        
-                    </section>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-grid-alt"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/profile2.png" alt="Profile" class="home__img">
+                            <h1 class="home__title">Muhammad <b>Abdiel</b> Firjatullah</h1>
+                            <h3 class="home__profession">Full Stack Developer</h3>
+
+                            <!-- Button to generate and download the pdf. Available for desktop. -->
+                            <div>
+                                <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movie">Download</a>
+                            </div>
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class="bx bx-map home__icon"></i> JL. Trunojoyo 230, Pasuruan, Jawa Timur
+                            </span>
+                            <span class="home__information">
+                                <i class="bx bx-envelope home__icon"></i> abdielfirdie@gmail.com
+                            </span>
+                            <span class="home__information">
+                                <i class="bx bx-phone home__icon"></i> +62-821-3789-9360
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Theme change button -->
+                </section>
+
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+
+                    <div class="social__container bd-grid">
+                        <a href="https://www.linkedin.com/in/muhammad-abdiel-firjatullah-19a1a7206/" target="_blank"
+                            class="social__link">
+                            <i class="bx bxl-linkedin-square social__icon"></i> Muhammad Abdiel Firjatullah
+                        </a>
+                        <a href="https://www.facebook.com/muhammadabdielfirjatullah" target="_blank"
+                            class="social__link">
+                            <i class="bx bxl-facebook social__icon"></i> Muhammad Abdiel Firjatullah
+                        </a>
+                        <a href="https://www.instagram.com/abdielfirdie/" target="_blank" class="social__link">
+                            <i class="bx bxl-instagram social__icon"></i> @abdielfirdie
+                        </a>
+                        <a href="https://github.com/muhammadabdiel" target="_blank" class="social__link">
+                            <i class="bx bxl-github social__icon"></i> MuhammadAbdiel
+                        </a>
+                    </div>
+                </section>
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+
+                </section>
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+
+                </section>
 
 
-                    <!--========== SKILLS  ==========-->
-                    <section class="skills section" id="skills">
-                        
-                    </section>
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
 
-                </div>
+                </section>
 
-                <div class="resume__right">
-                    <!--========== EXPERIENCE ==========-->
-                    <section class="experience section" id="experience">
-                        
-                    </section>
+            </div>
 
-                    <!--========== CERTIFICATES ==========-->
-                    <section class="certificate section" id="certificates">
-                        
-                    </section>
+            <div class="resume__right">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
 
-                    <!--========== REFERENCES ==========-->
-                    <section class="references section" id="references">
-                        
-                    </section>
+                </section>
 
-                    <!--========== LANGUAGES ==========-->
-                    <section class="languages section">
-                        
-                    </section>
-                    
-                    <!--========== INTERESTS ==========-->
-                    <section class="interests section">
-                        
-                    </section>
-                </div>
-            </div>        
-        </main>
+                <!--========== CERTIFICATES ==========-->
+                <section class="certificate section" id="certificates">
 
-        <!--========== SCROLL TOP ==========-->
-        
+                </section>
 
-        <!--========== HTML2PDF ==========-->
-        <script src="assets/js/html2pdf.bundle.min.js"></script>
+                <!--========== REFERENCES ==========-->
+                <section class="references section" id="references">
 
-        <!--========== MAIN JS ==========-->
-        <script src="assets/js/main.js"></script>
-    </body>
+                </section>
+
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section">
+
+                </section>
+
+                <!--========== INTERESTS ==========-->
+                <section class="interests section">
+
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
